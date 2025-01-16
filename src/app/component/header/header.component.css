@@ -1,0 +1,45 @@
+/* Style pour le header */
+header{
+    color:white;
+    height: 80px;                      /* Hauteur du header fixée à 80px */
+    text-align: center;                /* Centre le texte horizontalement */
+    display: flex;                     /* Utilise Flexbox pour la mise en page */
+    align-items: center;               /* Centre les éléments verticalement */
+    padding: 10px;                    /* Ajoute un espace intérieur de 10px */
+    justify-content: space-between;   /* Espace les éléments aux extrémités */
+    font-size: 1.5rem;                /* Définit la taille de police à 1.5rem */
+    position: sticky;                 /* Fixe le header en haut lors du scroll */
+    top: 0;                           /* Positionne le header collé en haut */
+    background: linear-gradient(to left, #F60B9A, #283CA6,#102243);
+    cursor: default;
+    color:white
+   
+}
+
+/* Style pour la barre de navigation dans le header */
+header .nav-bar ul{
+    display: flex;                    /* Affiche les éléments en ligne avec Flexbox */
+    gap: 20px;                       /* Espace de 20px entre les éléments */
+    list-style: none;                /* Supprime les puces des listes */
+    border-radius: 50px;             /* Arrondit les coins de la liste */
+    -webkit-border-radius: 50px;     /* Compatibilité WebKit */
+    -moz-border-radius: 50px;        /* Compatibilité Mozilla */
+    -ms-border-radius: 50px;         /* Compatibilité Internet Explorer */
+    -o-border-radius: 50px;          /* Compatibilité Opera */
+}
+
+
+header a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+   .nav-bar{
+            display: none; 
+           }
+    header{
+           justify-content: center;
+}
+}

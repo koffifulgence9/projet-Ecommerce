@@ -1,0 +1,21 @@
+.product-item  .product-details .product-price{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+del{
+
+    text-decoration: line-through;
+
+}
+
+.product-item {
+    text-align: center;
+    width: 300px;
+    border: 0.1px solid #ccc;
+}
+
+.product-item:hover{
+    background-color: #1d1d1d;
+    color:white
+}
