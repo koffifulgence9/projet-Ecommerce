@@ -3,18 +3,14 @@
 <p>Prix: {{ 42.42 | currency:'EUR':'symbol':'1.0-2' }}</p> -->
 
 
-<div> Table: {{products  }} </div>  //creer une pipe en json pour afficher les objets 
 <div class="product-list">
-    <app-product-item [product]="products[0]">  </app-product-item>
-    <!-- <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>   
-     <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item>
-    <app-product-item>  </app-product-item> -->
+    @for(product of products; track product.name){
+        <app-product-item [product]="products[0]">  </app-product-item>
+        <app-product-item [product]="products[1]">  </app-product-item>
+        <app-product-item [product]="products[2]">  </app-product-item>
+        <app-product-item [product]="products[3]">  </app-product-item>
 
-
+    }
 </div>
+
+<!--  -->
