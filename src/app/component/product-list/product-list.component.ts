@@ -213,12 +213,66 @@ export class ProductListComponent {
           sold_price:6354,
           regular_price: 25443,
           created_at: new Date(),
+         },
+
+         {
+          _id:'new Date().toString()',
+    
+          name:'casquette-courbé-blanc',
+          description:'Casquette courbée noire ajustée avec logo noir 39THIRTY Classic New York Yankees MLB New Era',
+          category:['casquette','Homme'],
+          imageUrl:[
+           '/assets/images/products/casquette_14/1.webp',
+           '/asset/images/products/casquette_14/2.webp',
+           '/asset/images/products/casquette_14/3.webp',
+           '/asset/images/products/casquette_14/4.webp'
+         ],
+          sold_price:1965,
+          regular_price: 3255,
+          created_at: new Date(),
+         },
+
+
+         {
+          _id:'new Date().toString()',
+    
+          name:'casquette-courbé-rose',
+          description:'Casquette courbée noire ajustée avec logo noir 39THIRTY Classic New York Yankees MLB New Era',
+          category:['casquette','Homme'],
+          imageUrl:[
+           '/assets/images/products/casquette_15/1.webp',
+           '/asset/images/products/casquette_15/2.webp',
+           '/asset/images/products/casquette_15/3.webp',
+           '/asset/images/products/casquette_15/4.webp'
+         ],
+          sold_price:1895,
+          regular_price: 6587,
+          created_at: new Date(),
+         },
+
+         {
+          _id:'new Date().toString()',
+    
+          name:'casquette-courbé-rose',
+          description:'Casquette courbée noire ajustée avec logo noir 39THIRTY Classic New York Yankees MLB New Era',
+          category:['casquette','Homme'],
+          imageUrl:[
+           '/assets/images/products/casquette_16/1.webp',
+           '/asset/images/products/casquette_16/2.webp',
+           '/asset/images/products/casquette_16/3.webp',
+           '/asset/images/products/casquette_16/4.webp'
+         ],
+          sold_price:1895,
+          regular_price: 6587,
+          created_at: new Date(),
          }
+         
       ]
 
-      console.log(this.products);
       
 
     }
+
+    hande
 
 }
